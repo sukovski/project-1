@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Courier New', Courier, monospace;
+    src: url(monospace);
+}
+:root{
+    --var-global-color: teal;
+    --var-global-text-color: rgb(100, 100, 100);
+
+    ;
+}
+h1 {
+    color: var(--var-global-color);
+    font-size: 48px;
+    font-weight: 600;
+}
+
+h2 {
+    color: var(--var-global-color);
+    font-size: 32px;
+    font-weight: 600;
+}
+
+h3 {
+    color: var(--var-global-color);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+p{
+    color: var(--var-global-text-color);
+    font-size: 16px;
+}
