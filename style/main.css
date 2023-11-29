@@ -2,6 +2,10 @@
     font-family: 'Courier New', Courier, monospace;
     src: url(monospace);
 }
+
+body{
+    padding: 35px;
+}
 :root{
     --var-global-color: teal;
     --var-global-text-color: rgb(100, 100, 100);
@@ -29,4 +33,27 @@ h3 {
 p{
     color: var(--var-global-text-color);
     font-size: 16px;
+}
+
+.big-title {
+    background-color: rgb(226, 226, 226);
+    text-align: center;
+    padding: 20px;
+}
+.big-title:hover {
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    padding: 20px;
+}
+
+.header-main-section {
+    display: block;
+    column-width: auto;
+}
+.header-main-section div, .header-main-section div li {
+    width: 33,33%;
+    max-width: 100%;
+    padding: 20px;
+    column-width: auto;
+    display: inline-block;
 }
