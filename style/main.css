@@ -1,59 +1,90 @@
-@font-face {
-    font-family: 'Courier New', Courier, monospace;
-    src: url(monospace);
+* {
+    font-family: Libre Baskerville;
+    display: box-sizing;
+    margin: 0;
+    padding: 0;
 }
 
 body{
-    padding: 35px;
+    background: #3C3C59;
+    margin: 0;
 }
 :root{
-    --var-global-color: teal;
-    --var-global-text-color: rgb(100, 100, 100);
-
-    ;
+    --var-global-color: #dde0dd;
+    --var-bg-color: #3C3C59;
+    --var-global-text-color: #bfbfe1;
 }
 h1 {
     color: var(--var-global-color);
     font-size: 48px;
-    font-weight: 600;
+    font-weight: 500;
+    padding-bottom: 20px;
 }
 
 h2 {
     color: var(--var-global-color);
     font-size: 32px;
-    font-weight: 600;
+    font-weight: 500;
+    padding-bottom: 20px;
 }
 
 h3 {
     color: var(--var-global-color);
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
+    padding-bottom: 20px;
 }
 
 p{
     color: var(--var-global-text-color);
-    font-size: 16px;
+    font-size: 14px;
+    padding-bottom: 20px;
 }
 
-.big-title {
-    background-color: rgb(226, 226, 226);
-    text-align: center;
-    padding: 20px;
+button {
+    padding: 10px 30px 10px 30px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--var-global-text-color);
+    color: #ffffff;
+
 }
-.big-title:hover {
-    background-color: rgb(240, 240, 240);
+
+.header-section {   
+    width: 100%;
     text-align: center;
-    padding: 20px;
+    line-height: 1.4rem;
+    padding-bottom: 100px;
 }
+.header-h1 {
+    width: 100%;
+}
+
 
 .header-main-section {
     display: block;
     column-width: auto;
 }
-.header-main-section div, .header-main-section div li {
-    width: 33,33%;
-    max-width: 100%;
-    padding: 20px;
-    column-width: auto;
-    display: inline-block;
+
+.header-main-section{
+    text-align: center;
+    display: block;
+    width: 100%;
+    position: relative;
+    height: 60px;
+    margin-bottom: 50px;
 }
+.logo-white {
+    width: 220px;
+}
+.header-main-section div, .header-main-section div li {
+    vertical-align: middle;
+    width: auto;
+    display: inline-block;
+    padding: 20px;
+    margin: auto;
+    }
