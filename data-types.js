@@ -55,3 +55,31 @@ console.log(user1==user2) // false
 let nums3 = [1, 2, 3]
 let nums4 = nums3
 console.log (nums3 == nums4) //true
+
+// Number Data Types
+let age = 35
+const gravity = 9.81
+let mass = 72 //kg
+const PI = 3.14 // pi a geometrical value
+
+// Math Object - matematiksel tüm işlemleri JS ile yapabiliriz.
+
+const getPI = Math.PI
+console.log(getPI) // 3.141592653589793
+
+// rounding to closes number en yakın sayıya yuvarlamak
+console.log(Math.round(PI)) // 3
+console.log(Math.round(5.44)) // 5
+console.log(Math.ceil(5.01)) // 6
+console.log(Math.floor(5.01)) // 5
+console.log(Math.min(2,4,5,7,9,1)) // 1
+console.log(Math.max(2,4,5,7,9,1)) // 9
+console.log(Math.random()) // 0 - 0.9999
+console.log(Math.random()*11) // 0 ile 10 arasında bir sayı istiyorsak, 10 katının bir fazlasıyla çarpıyoruz. Örneğin 0-20 ise 21 ile çarpıyoruz.
+
+let random = Math.floor( Math.random() * 11 )
+console.log(random)
+
+// absolute value mutlak değer -10 > 10
+console.log(Math.abs(-10)) // 10
+console.log(Math.log(2)) // logaritma 2 = 0.6931471805599453

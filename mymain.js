@@ -36,7 +36,7 @@ console.log (typeof websiteAdres,websiteAge, websiteMoney, isWebsiteStillActive,
 // const sabit değişkenler country, pi number etc.
 
 const GRAVITY = '9.81'
-const PI = '3.14'
+//const PI = '3.14'
 //console.log ile değişkenleri yazdırdım.
 console.log (PI, GRAVITY)
 
