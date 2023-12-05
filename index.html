@@ -30,25 +30,53 @@
         <div><button>Beni ara</button></div>
     </section>
 </header>
-<div class="header-section">
-    <div class="header-h1">
-    <h1 class="big-title">Selam ben Şükrü Yahyaoğlu, tasarımlarınızı beraber yapıyoruz.</h1>
-    </div>
-<p>Merhaba, ben Sukovski. <br>
-    Patika üzerinden Front-end Developer eğitimiyle meşgul biri olarak. Buraya yazı yazmaya ayıracak pek vaktim yok.<br>
-    <b>Teşekkürler!</b>
-</p></div>
-<h3>Sevdiğim diziler</h3>
-
-<!-- listeleme -->
-<ul>
-    <li>Şahsiyet</li>
-    <li>Terzi</li>
-    <li>Kurtlar Vadisi Pusu dermişim</li>
-    <li>Sons of Anarchy</li>
-</ul>
-
 <body>
+    <div class="header-section">
+        <div class="header-h1">
+        <h1 class="big-title">Selam ben Şükrü Yahyaoğlu, tasarımlarınızı beraber yapıyoruz.</h1>
+        </div>
+    <p><strong>Merhaba, ben Sukovski.</strong> <br>
+        Patika üzerinden Front-end Developer eğitimiyle meşgul biri olarak. Buraya yazı yazmaya ayıracak pek vaktim yok.<br>
+        <b>Teşekkürler!</b>
+    </p></div>
+
+        <!-- listeleme -->
+    <ol>
+        <h2><li>Sevdiğim diziler</li></h2>
+            <ul>
+                <li><a href="https://www.imdb.com/title/tt7920978/">Şahsiyet</a></li>
+                <li>Terzi</li>
+                <li>Kurtlar Vadisi Pusu dermişim</li>
+                <li>Sons of Anarchy</li>
+            </ul>
+            <hr>
+        <h2><li>Sevmediğim diziler</li></h2>
+            <ul>
+                <li><a href="https://www.imdb.com/title/tt7920978/">Şahsiyet</a></li>
+                <li>Terzi</li>
+                <li>Kurtlar Vadisi Pusu dermişim</li>
+                <li>Sons of Anarchy</li>
+            </ul>
+    </ol>
+        <!-- listeleme -->
+
+    <!-- image <img> etiketi içerisinde çalışmak -->
+    <h3>Görsellerle çalışmak</h3>
+    <img width="200" height="500"   src="https://cdn.leonardo.ai/users/9fe6cf81-eef6-4550-a379-c07e60da087a/generations/e1946d5e-7e15-4cb2-b4dd-9087434d0555/Leonardo_Diffusion_XL_A_skinny_developer_with_glasses_weakface_0.jpg" align="center" alt="my profile picture"> 
+    <img src="https://picsum.photos/500/500" alt="Lorem Picsum Photos">
+    
+    <!-- ekran boyutuna göre farklı fotoğraf gösterme-->
+    <picture>
+    <source srcset="https://picsum.photos/500/500" media="(min-width:640px)">
+        <img src="img/logo-wit.png" onload="resimYuklendi()">
+    </picture>
+    <!-- **** -->
+
+    <!-- javascript -->
+    <!-- Resim yüklendi alerti verebiliriz 
+        <script> function resimYuklendi(){
+        alert("Resim yüklendi")
+    }</script> -->
     <script src="./data-types.js"></script>
     <script src="mymain.js"></script>
     <script src="main.js"></script>
